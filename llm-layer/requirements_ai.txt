@@ -1,0 +1,65 @@
+# Requirements for Agentic AI System with RAG
+
+# Core LangChain & LangGraph
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langgraph>=0.0.20
+langchain-core>=0.1.0
+
+# Vector Database
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Optional: Authentication
+streamlit-authenticator>=0.2.3
+
+# Optional: Enhanced Components
+streamlit-extras>=0.3.0
+# streamlit-ag grid>=0.3.0
+
+# Core Framework
+streamlit>=1.28.0
+
+# Visualization
+plotly>=5.17.0
+matplotlib>=3.8.0
+seaborn>=0.12.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# AI & LangChain
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-core>=0.1.0
+
+# Vector Database
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+
+# Optional: For JIRA/GitHub integration
+# jira>=3.5.0
+# PyGithub>=2.1.0
+
+# Installation command:
+# pip install -r requirements_agentic.txt

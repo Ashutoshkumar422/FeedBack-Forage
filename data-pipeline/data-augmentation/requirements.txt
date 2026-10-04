@@ -1,0 +1,24 @@
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.23.0
+tqdm>=4.65.0
+
+# Text processing
+textblob>=0.17.0
+cleantext>=1.1.4
+langdetect>=1.0.9
+
+# Augmentation libraries
+nlpaug>=1.1.11
+googletrans==4.0.0rc1
+
+# Optional: For better quality augmentation
+# openai>=1.0.0
+# anthropic>=0.18.0
+
+# ML dependencies (for transformer models used in contextual augmentation)
+torch>=2.0.0
+transformers>=4.30.0
+
+# Note: Installing torch and transformers can take time
+# For lightweight version, see augmentation_lightweight.py
